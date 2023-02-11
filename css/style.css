@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100;
+
+}
+
+/* --------------[nav bar]------------------------------------ */
+nav{
+    padding-top: 3rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    padding-bottom: 0;
+    
+
+}
+.upper-div{
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    padding-right: 5rem;
+}
+.upper-div>h2{
+    font-size:xx-large;
+}
+nav>.a-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.a-div>p{
+    padding: 2rem;
+}
+
+
+nav>.a-div>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem;
+}
+nav>.a-div>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+nav>.a-div>ul>li>a:hover{
+    color: #E6B325;
+}
+a:hover{
+    color: gold;
+    transition-delay: 15ms;
+    font-size: xx-large;
+}
+
+/* ------------------------------------------------------------ */
+
+/* ------------------------------------------------------------- */
+
+.sale{
+    background-color: #DEF5E5;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-top : 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sale>p>a{
+    color: black;
+}
+.sale>p>a:hover{
+    font-size: larger;
+    color: blueviolet;
+}
+/* ------------------------------------------------------------------------- */
+
+.hero-img{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.hero-img>img{
+    width: 1100px;
+    padding-top: 0rem;
+}
+.hero-img>p{
+    margin-top: 2rem;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    
+    
+}
+/* ----------------------------------------------------------- */
+
+.product > h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: xx-large;
+    font-weight: 100;
+}
+/* ---------------------------------------------------------- */
+
+.product>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+}
+.contenor> div > a> img{
+    width: 350px;
+}
+
+.contenor> div > a> img:hover{
+    width: 370px;
+    transition-delay:.5000ms;
+
+}
+
+.contaner-2> div > a> img{
+    width: 350px;
+}
+
+.contaner-2> div > a> img:hover{
+    width: 360px;
+    transition-delay:.50000ms;
+
+}
+
+.button{
+    background-color: black;
+    margin: 5rem;
+    height: 3rem;
+    font-size: larger;
+    border-radius: 1rem;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #E14D2A;
+}
+
+.f-div>h3{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+    padding-top: 3rem;
+}
+.f-div{
+    background-color: #E8F6EF;
+
+}
+.fdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+.fdiv>div>a>img{
+    width: 350px;
+}
+
+footer > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+}
+
+
